@@ -18,6 +18,7 @@ services:
 
   api:
     build: ./api
+    image: cajavilcavaldiviaharold/api-contenedores:1.0
     environment:
       DB_HOST: db
       DB_USER: ${MYSQL_USER}
